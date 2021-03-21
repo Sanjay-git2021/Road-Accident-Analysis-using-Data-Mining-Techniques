@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -18,10 +15,6 @@ plt.bar(x=df["Weather Condition"],height=df["No of Accidents - 2017"],color='rgb
 plt.xticks(rotation=45)
 plt.ylabel("Number  ")
 plt.title("Number of Road Accidents in India according to Weather conditions ")
-
-
-# In[2]:
-
 
 import pandas as pd
 import numpy as np
@@ -42,10 +35,3 @@ plt.bar(x+0.4, person_killed, width)
 plt.xlabel("Weather Conditions") 
 plt.ylabel("Counts in numbers") 
 plt.legend(["No of Accidents", "Number of People injured", "Number of person killed"]) 
-
-
-# In[ ]:
-
-
-
-

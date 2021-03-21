@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -16,9 +13,6 @@ plt.pie(Count_data,labels=time_data,autopct='%1.1f%%',explode=explode,shadow=Tru
 plt.title("Area Wise - Residential Area ")
 plt.show()
 plt.savefig('plot.png',dpi=300,bbox_inches='tight')
-
-
-# In[2]:
 
 
 import matplotlib.pyplot as plt
@@ -35,9 +29,6 @@ plt.show()
 plt.savefig('plot.png',dpi=300,bbox_inches='tight')
 
 
-# In[3]:
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -51,10 +42,6 @@ plt.title("Area Wise - Open Area ")
 plt.show()
 plt.savefig('plot.png',dpi=300,bbox_inches='tight')
 
-
-# In[4]:
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -67,10 +54,3 @@ plt.pie(Count_data,labels=time_data,autopct='%1.1f%%',explode=explode,shadow=Tru
 plt.title("Area Wise - Market/Commercial Area ")
 plt.show()
 plt.savefig('plot.png',dpi=300,bbox_inches='tight')
-
-
-# In[ ]:
-
-
-
-

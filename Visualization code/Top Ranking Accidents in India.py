@@ -1,23 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
 
-# In[1]:
-
-
 fig = plt.figure(figsize=(7,7))
 df = pd.read_csv(r'C:\Users\Karan\Desktop\final visualisation code and data\top6 accidents.csv')
-
-
-# In[10]:
-
 
 import pandas as pd
 import numpy as np
@@ -36,10 +26,3 @@ plt.bar(x+0.2,Total_data_2018 , width)
 plt.ylabel("Total Accidents in Year 2017 and 2018")
 plt.title("State/UT-wise Total Number of Persons Killed in Road Accidents during - 2017 and 2018 ")
 plt.legend(["2017","2018"])
-
-
-# In[ ]:
-
-
-
-

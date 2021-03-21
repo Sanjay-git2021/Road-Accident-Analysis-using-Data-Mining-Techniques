@@ -11,3 +11,12 @@ This is the visualization of Total Road accidents in India (2004 and 2014) using
 This is the visualization of Total Road accidents in India 2014 using Tableau.This visualization shows the state/UT wise number of accidents in India using Bubble Plot
 Clusters are also find using the Tableau Clustring
 
+![Screenshot (22)](https://user-images.githubusercontent.com/77222809/111896366-0bc58980-8a3f-11eb-958f-ffbab6b7e59f.png)
+
+This is the visualization of Total Road accidents in India 2014 using Tableau.This visualization shows the District wise number of accidents in Tamil nadu using Scatter Plot.
+
+![Screenshot (25)](https://user-images.githubusercontent.com/77222809/111896431-98704780-8a3f-11eb-9ad1-e18ff8b41d6f.png)
+
+This is the visualization of Total Road accidents in India 2014 using Tableau.This visualization shows the District wise number of accidents in Tamil nadu using Bar Plot.
+
+Other plots regarding clustering of areas to find areas with higher density of accidents(using K-means), ARIMA Model to predict the future trend of the accidents are giving and various plots are in the Snapshots folder

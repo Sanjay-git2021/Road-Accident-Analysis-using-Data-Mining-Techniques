@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -16,10 +13,3 @@ plt.pie(Count_data,labels=time_data,autopct='%1.2f%%',explode=explode,shadow=Tru
 plt.title("Time Zone wise year-2014")
 plt.show()
 plt.savefig('plot.png',dpi=300,bbox_inches='tight')
-
-
-# In[ ]:
-
-
-
-

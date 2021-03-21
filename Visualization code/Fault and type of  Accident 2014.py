@@ -1,17 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-
-
-# In[3]:
-
 
 FaultType = pd.read_csv(r'C:\Users\Karan\Desktop\code\Traffic-Accident-Analysis-master\datafile_4.csv')
 FaultType = FaultType.drop(FaultType.index[[34,37]])
@@ -27,9 +20,6 @@ faulttype["Passenger's Fault"] = FaultType.loc[36,'Fault of Passenger-Total No. 
 faulttype["Poor Light"] = FaultType.loc[36,'Poor light-Total No. of Road Accidents - 2014'] 
 faulttype["Stray Animals"] = FaultType.loc[36,'Stray animals-Total No. of Road Accidents - 2014'] 
 faulttype["Others"] = FaultType.loc[36,'Other causes/ Causes not known-Total No. of Road Accidents - 2014'] 
-
-
-# In[7]:
 
 
 val = list(faulttype.values())

@@ -1,17 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-
-
-# In[4]:
-
 
 # Importing the dataset
 dataset = pd.read_csv(r'C:\Users\Karan\Desktop\code\Traffic-Accident-Analysis-master\Data_Final.csv')
@@ -24,26 +17,16 @@ names = (dataset.columns.values)
 names = names[3:]
 
 
-# In[5]:
-
-
 from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(strategy="most_frequent")
 imputer = imputer.fit(X[:,:])
 X[:,:] =  imputer.transform(X[:,:])
 data_new = pd.DataFrame(data=X,columns=names)
 
-
-# In[6]:
-
-
 imputer = SimpleImputer(missing_values=-1,strategy="most_frequent")
 imputer = imputer.fit(X[:,:])
 X[:,:] =  imputer.transform(X[:,:])
 data_new = pd.DataFrame(data=X,columns=names)
-
-
-# In[7]:
 
 
 plt.figure(figsize=(30,8))
@@ -54,16 +37,3 @@ plt.figure(figsize=(30,8))
 sns.countplot(x='SEVERITY',hue='SPEED_ZONE',data=data_new)
 #sns.countplot(x='POLICE_ATTEND',hue='SPEED_ZONE',data=data_new)
 #sns.countplot(x='FEMALES',hue='SEVERITY',data=data_new)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
